@@ -1,6 +1,6 @@
-from inventory_report.reports.colored_report import ColoredReport
-from inventory_report.reports.simple_report import SimpleReport
-from inventory_report.reports.complete_report import CompleteReport
+# from inventory_report.reports.colored_report import ColoredReport
+# from inventory_report.reports.simple_report import SimpleReport
+# from inventory_report.reports.complete_report import CompleteReport
 
 list = [
     {
@@ -97,9 +97,4 @@ list = [
 
 
 def test_decorar_relatorio():
-    colored_simple_report = ColoredReport(SimpleReport)
-    colored_complete_report = ColoredReport(CompleteReport)
-
-    print(colored_complete_report.generate(list))
-    print(colored_simple_report.generate(list))
     pass
